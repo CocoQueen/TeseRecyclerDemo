@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     List<Integer> list = new ArrayList<>();
-    List<Integer> list2 = new ArrayList<>();
+//    List<Integer> list2 = new ArrayList<>();
 
     boolean isAdd;
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (list.size() > 0 && null != testAdapter) {
                 for (int i = 0; i < list.size(); i++) {
-                    list2.clear();
+//                    list2.clear();
                     if (parseInt == list.get(i)) {
                         isAdd = true;
                         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
